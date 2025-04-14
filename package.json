@@ -1,9 +1,15 @@
 {
+  "license": "MIT",
   "devDependencies": {
+    "@types/node": "^22.14.1",
+    "dotenv-override-true": "^6.2.2",
     "tsx": "^4.19.3",
     "yarn-upgrade-all": "^0.7.5"
   },
   "dependencies": {
     "@rc-ex/core": "^1.6.17"
+  },
+  "scripts": {
+    "test": "tsx -r dotenv-override-true/config src/index.ts"
   }
 }
