@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "yarn-upgrade-all": "^0.7.5"
+  },
+  "dependencies": {
+    "@rc-ex/core": "^1.6.17"
+  }
+}
